@@ -1,0 +1,144 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: yellowgreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: sticky;
+  top: -3.5em;
+  z-index: 10;
+}
+header > a {
+  display: block;
+  width: 7.5em;
+  height: 3.5em;
+  line-height: 1em;
+  padding: 0.75em 0 0.75em 2.75em;
+
+  font-weight: bold;
+  color: #62a5a1;
+  background: url("https://www.sinds1971.nl/fed/images/sanne.png") .75em center / auto 2.75em no-repeat;
+
+  text-decoration: none;
+  outline: none;
+}
+
+header > a:hover {
+  padding: 0.75em 2.75em 0.75em 0;
+  text-align: right;
+  background-position: calc(100% - .75em) center;
+}
+
+header > a:focus {
+  text-decoration: underline;
+}
+
+header nav {
+  background-color: rgba(0,0,0,.1);
+  flex-grow: 1;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  /* jouw code hier */
+  display: flex;
+}
+
+header nav li {
+  /* jouw code hier */
+  min-width: 6em;
+  flex-grow: 1;
+}
+
+header nav li + li {
+  border-left: solid 1px transparent;
+}
+
+header nav a {
+  color: white;
+  background-color: #62a5a1;
+  text-decoration: none;
+  outline: none;
+
+  /* jouw code hier */
+  display: block;
+  line-height: 3.5em;
+  text-align: center;
+}
+
+header nav a.active {
+  font-weight: bold;
+  cursor: default;
+}
+
+header nav a:hover:not(.active) {
+  color: #62a5a1;
+  background-color: white;
+}
+
+header nav a:focus {
+  text-decoration: underline;
+}
+
+header form {
+  padding: 0.75em;
+  background-color: rgba(0,0,0,.2);
+  flex-grow: 5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header form input {
+  flex-grow: 1;
+}
+
+header form {
+  padding: 0.75em;
+  background-color: rgba(0,0,0,.2);
+  flex-grow: 5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header form input {
+  flex-grow: 1;
+}
+
+input, button {
+  font-size: 1em;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+header form input {
+  width: 12em;
+  max-width: 38em;
+  line-height: 2em;
+  padding: 0 0.5em;
+}
+
+header form button {
+  line-height: 2em;
+  padding: 0 0.5em;
+  background-color: #62a5a1;
+  color: white;
+}
+
+body section {
+  position: relative;
+  display:flex;
+  flex-direction:column-reverse;
+  justify-content: center;
+}
+
+body {
+  background-color: white;
+}
