@@ -8,107 +8,115 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: rgb(214,214,214);
+  background-image: url(https://cdn.wallpaper.com/main/styles/wp_extra_large/s3/untitled-1_164.jpg);
+  background-repeat: no-repeat;
 }
 
 /* ********************** */
-/*        LAY-OUT         */
+/*     LAY-OUT HEADER     */
 /* ********************** */
 
-body {
-  background-color: white;
-}
-
-section1 {
-  font-family: 'Saira', sans-serif;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-p {
-  display: flex;
-  flex-direction: row;
+header {
+  position: sticky;
   justify-content: space-between;
+  margin: 0.5em 2em 2em 2em;
+}
+
+header div:nth-of-type(1){
+  display: flex;
+  width: 100%;
+  height: 50px;
   align-items: center;
-  max-width: 15%;
-  height: auto;
 }
 
-/* ********************** */
-/*        HEADER  source; https://www.w3schools.com/howto/howto_js_topnav_responsive.asp        */
-/* ********************** */
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #62a5a1;
-  overflow: hidden;
+header div:nth-of-type(2){
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-  display: block;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #FFFFFF;
-  color: black;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: #62a5a1;
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  width: 60%;
+  margin: auto auto;
   color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
+header div:nth-of-type(1) img:first-of-type {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  height: 55%;
 }
 
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
+header div:nth-of-type(1) img:nth-of-type(2) {
+  position: absolute;
+  height: 15%;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+
+header div:nth-of-type(1) img:nth-of-type(3) {
+  margin-left: auto;
+}
+
+header div:nth-of-type(1) img {
+  margin-right: 2em;
+}
+
+header div:nth-of-type(1) img:nth-of-type(5) {
+  margin-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+/* ********************** */
+/*     LAY-OUT MAIN       */
+/* ********************** */
+
+section:nth-of-type(1) {
+  position: relative;
+  width: 100%;
+  margin-top: 50%;
+}
+
+h1, h2, p, h3 {
+  margin: auto auto;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+section {
+  background-color: lightgrey;
+  margin: 2em 2em 2em 2em;
 }
 
 /* ********************** */
 /*  HEADER MEDIA QUERIES source; https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  */
 /* ********************** */
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
 
 /* ********************** */
-/*    HEADER ANIMATION???    */
+/*    HEADER ANIMATION??? */
 /* ********************** */
