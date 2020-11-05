@@ -124,26 +124,33 @@ section:nth-of-type(1) article {
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 
-  background-color: red;
   width: 400px;
   max-width: 90%;
 }
 
-h2, h3, p, {
+h2 h3 p {
   margin: auto auto;
   color: white;
   font-weight: lighter;
 }
 
+main a:hover {
+  color: black;
+  background-color: white;
+  transition: 1s;
+}
+
 main a {
   position: relative;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 32px;
   text-decoration: none;
   border: 2px solid white;
   font-size: 16px;
-}
 
+  transition: 1s;
+  margin-bottom: 4em;
+}
 
 
 /* SECTION 3 */

@@ -1,2 +1,13 @@
 // JavaScript Document
-// hulp responsive header; https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+var knopje =
+document.querySelector("main a button");
+
+knopje.addEventListener("mouseOver", veranderTerug);
+
+function veranderTerug() {
+  let knopje = document.querySelector("main a");
+}
+
+knopje.classList.toggle("anders");
+}
