@@ -26,11 +26,11 @@ body {
 
 header {
   height: 100px;
-  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
+  width: 100%;
 }
 
 header div div {
@@ -75,7 +75,7 @@ nav {
 
 }
 
-ul {
+nav ul {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -102,14 +102,14 @@ nav a:hover {
 
 /* SECTION 1 */
 
-section {
+main section {
   width: 100%;
   height: 100vh;
-  background-color: purple;
+  background-color: grey;
   position: relative;
 }
 
-section:nth-of-type(1) {
+main section:nth-of-type(1) {
   background: url(https://cdn.wallpaper.com/main/styles/wp_extra_large/s3/untitled-1_164.jpg) no-repeat center fixed;
   background-size: cover;
 }
@@ -118,7 +118,7 @@ section:nth-of-type(1) {
 
 /* ARTICLE */
 
-article {
+section:nth-of-type(1) article {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -129,17 +129,65 @@ article {
   max-width: 90%;
 }
 
-h1, h2, p, h3 {
+h2, h3, p, {
   margin: auto auto;
   color: white;
   font-weight: lighter;
 }
 
-a {
+main a {
   position: relative;
   color: white;
   padding: 15px 32px;
   text-decoration: none;
   border: 2px solid white;
   font-size: 16px;
+}
+
+
+
+/* SECTION 3 */
+
+section:nth-of-type(3) article {
+  display: flex;
+  width: 1300px;
+  max-width: 90%;
+}
+
+section:nth-of-type(3) div, section:nth-of-type(3) img {
+  width: 50%;
+  background-color: lightgrey;
+}
+
+section:nth-of-type(3) h2 {
+  margin-top: auto;
+}
+
+section:nth-of-type(3) a {
+  margin-bottom: auto;
+}
+
+section:nth-of-type(3) div div {
+  position: absolute;
+  float: left;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer section {
+  width: 100%;
+  margin: 2em 2em 2em 2em;
 }
