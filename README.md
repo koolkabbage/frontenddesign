@@ -78,7 +78,8 @@ hier de naam van de pagina
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+slecht: 
+concentratie(!!!)
 
 ### Agenda voor meeting
 samen met je groepje opstellen
