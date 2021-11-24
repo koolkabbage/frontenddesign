@@ -41,7 +41,7 @@ Als het te moeilijk is; www.bang-olufsen.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" alt="omschrijving van de pagina">
+<img src="voor_readme/screencapture-dunkin-nl-2021-11-24-15_33_33.png" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
@@ -57,7 +57,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="voor_readme/schets_html.svg" alt="breakdown van de hele pagina">
+<img src="voor_readme/schets_html.pdf" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
