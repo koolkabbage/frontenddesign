@@ -1,0 +1,90 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+ /* rootstyle */
+:root {
+  /* h'tjes style */
+  --h1-font: sans-serif;
+  --h2-font: sans-serif;
+  --h3-font: sans-serif;
+  /* p style */
+  --p-color: white;
+  --p-font: sans-serif;
+}
+
+/* de titels h'tjes en p'tjes */
+
+body {
+  background-color: white;
+}
+
+nav {
+  background-color: rebeccapurple;
+}
+
+h1 {
+  font-family: var(--h1-font);
+}
+
+h2 {
+  font-family: var(--h2-font);
+}
+
+h3 {
+  font-family: var(--h3-font);
+}
+
+p {
+  font-family: var(--p-font);
+  color: var(--p-color);
+}
+
+/* header */
+header {
+  background-color: papayawhip;
+}
+
+/* de boxjes in section:nth-of-type */
+
+/* 1st */
+section:first-of-type {
+  background-color: hotpink;
+  border-radius: 1.5em;
+}
+
+/* 2nd */
+section:nth-of-type(2) {
+  background-color: hotpink;
+  border-radius: 1.5em;
+}
+
+/* 3rd */
+section:nth-of-type(3) {
+  background-color: hotpink;
+  border-radius: 1.5em;
+}
+
+/* 4th */
+section:nth-of-type(4) {
+  background-color: hotpink;
+  border-radius: 1.5em;
+}
+
+/* 5th */
+section:nth-of-type(5) {
+  background-color: hotpink;
+  border-radius: 1.5em;
+}
+
+/* last */
+section:last-of-type {
+  background-color: hotpink;
+  border-radius: 1.5em;
+}
+
+/* footer */
+footer {
+  background-color: papayawhip;
+  border-radius: 1.5em;
+}
