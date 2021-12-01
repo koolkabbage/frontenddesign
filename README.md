@@ -117,11 +117,11 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| student 1      | student 2          | student 3    | Angelo       |
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | spacing met woorden |
-| en dat ook nog | dit als er tijd is | nog een punt |                  |
-| ...            | ...                | ...          | ...              |
+| en dat ook nog | dit als er tijd is | nog een punt | nav hiding                |
+| ...            | ...                | ...          | animeren zoals op de page             |
 
 
 ### Verslag van meeting
