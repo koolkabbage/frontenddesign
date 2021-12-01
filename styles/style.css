@@ -5,9 +5,10 @@
  /* rootstyle */
 :root {
   /* h'tjes style */
-  --h1-font: sans-serif;
-  --h2-font: sans-serif;
-  --h3-font: sans-serif;
+  --h1-font: Debussy;
+  --h2-font: Debussy;
+  --h3-font: Debussy;
+  --h-kleurtjes: white;
   /* p style */
   --p-color: white;
   --p-font: sans-serif;
@@ -16,7 +17,7 @@
 /* de titels h'tjes en p'tjes */
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 nav {
@@ -25,66 +26,122 @@ nav {
 
 h1 {
   font-family: var(--h1-font);
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--h-kleurtjes);
+  padding-top: 0.5em;
 }
 
 h2 {
   font-family: var(--h2-font);
+  font-size: 4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: orange;
+  padding-top: 0.5em;
+
 }
 
 h3 {
   font-family: var(--h3-font);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: hotpink;
+  padding-top: 0.5em;
 }
 
 p {
   font-family: var(--p-font);
   color: var(--p-color);
+  padding-top: 0.5em;
+  letter-spacing: 0.05em;
+}
+
+main {
+  position: relative;
 }
 
 /* header */
 header {
-  background-color: papayawhip;
+}
+
+/* voor de tekst in de sections */
+section {
+  position: relative;
+  align-items: center;
+  margin: 0.75em;
+  padding-bottom: 2em;
 }
 
 /* de boxjes in section:nth-of-type */
 
+
 /* 1st */
 section:first-of-type {
-  background-color: hotpink;
+  background-color: burlywood;
   border-radius: 1.5em;
+  text-align: center;
 }
 
 /* 2nd */
 section:nth-of-type(2) {
-  background-color: hotpink;
+  background-color: deeppink;
   border-radius: 1.5em;
+  text-align: center;
+}
+
+
+/* 3rd */
+section:nth-of-type(3) {
+  background-color: #71c5e8;
+  border-radius: 1.5em;
+  text-align: center;
 }
 
 /* 3rd */
 section:nth-of-type(3) {
-  background-color: hotpink;
+  background-color: #71c5e8;
   border-radius: 1.5em;
+  text-align: center;
+}
+
+section:nth-of-type(3) h1 {
 }
 
 /* 4th */
-section:nth-of-type(4) {
-  background-color: hotpink;
-  border-radius: 1.5em;
+section:nth-of-type(4) h2 {
+  margin-top: 0.2em;
+  margin-bottom: 0.3em;
 }
 
-/* 5th */
-section:nth-of-type(5) {
-  background-color: hotpink;
+div:first-of-type {
+  background-color: white;
   border-radius: 1.5em;
+  padding-left: 1.5em;
+}
+
+div:nth-of-type(2) {
+  background-color: white;
+  border-radius: 1.5em;
+  padding-left: 1.5em;
+}
+
+div:nth-of-type(3) {
+  background-color: white;
+  border-radius: 1.5em;
+  padding-left: 1.5em;
 }
 
 /* last */
 section:last-of-type {
-  background-color: hotpink;
+  background-color: skyblue;
   border-radius: 1.5em;
+  text-align: center;
 }
 
 /* footer */
 footer {
-  background-color: papayawhip;
+  background-color: orange;
   border-radius: 1.5em;
 }
